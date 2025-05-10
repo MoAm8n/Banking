@@ -34,6 +34,11 @@ header form i{
 .offcanvas-backdrop.show{
     opacity: 0;
 }
+@media(min-width: 992px) and (max-width: 1200px) {
+    header li a {
+        padding-left: 0px !important;
+    }
+}
 /* end header */
 .home{
     width: 100%;
